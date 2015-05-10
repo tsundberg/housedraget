@@ -6,6 +6,6 @@ import java.nio.charset.Charset;
 
 public class IndexView extends View {
     protected IndexView() {
-        super("index.mustache", Charset.forName("UTF-8"));
+        super("/index.mustache", Charset.forName("UTF-8"));
     }
 }
