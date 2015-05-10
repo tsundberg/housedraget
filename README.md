@@ -28,3 +28,16 @@ Add a remote repository
 Then push to the remote repo when it is time for a new deployment.  
 `git push heroku`
 
+## Resources
+
+Framework: [Dropwizard](http://dropwizard.io) 
+
+Platform: [Heroku](http://heroku.com) 
+
+## Development tools
+
+Building: [Maven](http://maven.apache.org)
+ 
+Editing: [Any good, open source, tool that supports Maven projects out of the box](https://www.jetbrains.com/idea/download/) 
+
+A Java installation. at least Java 7.
