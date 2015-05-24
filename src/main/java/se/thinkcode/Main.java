@@ -36,7 +36,7 @@ public class Main extends Application<Configuration> {
         environment.jersey().register(new IndexResource());
         environment.jersey().register(new ParticipantsResource());
 
-        scheduleKeepAlive(environment);
+        // scheduleKeepAlive(environment);
     }
 
     private void scheduleKeepAlive(Environment environment) {
